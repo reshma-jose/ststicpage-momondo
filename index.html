@@ -4,20 +4,24 @@
 <head>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+
+
+ <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+ rel = "stylesheet">
+ 
  <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
  <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
  
  <link href="https://fonts.googleapis.com/css?family=Bitter|Crimson+Text" rel="stylesheet">
  <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
- <link rel="stylesheet" href="css/kayak.css">
+ <link rel="stylesheet" href="css/momondo.css">
  <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
  <link rel="icon" href="images/xslogo.png" >
  
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
- <title>Kayak</title>
+ <title>momondo</title>
 
  
 
@@ -25,1002 +29,356 @@
 
 </head>
  <body>
- <div class="container-fluid header ">
- <div class="container topheader">
- <nav class="navbar navbar-expand-md navbar-light bg-light">
- <a href="#" class="navbar-brand">
- <img src="images/logo.png" alt="logo" class="logo">
- </a>
  
- 
- <div class="collapse navbar-collapse" id="navbarCollapse">
- <div class="navbar-nav">
- <a href="#" class="nav-item nav-link active fli">Flights</a>
- <a href="#" class="nav-item nav-link">Hotels</a>
- <a href="#" class="nav-item nav-link">Car Rental</a>
- <a href="#" class="nav-item nav-link">Flight+Hotel</a>
- <a href="#" class="nav-item nav-link">More</a>
- </div>
- <div class="navbar-nav ml-auto pull-right">
- <a href="#" class="nav-item nav-link active fli">Tripes</a>
- <a href="#" class="nav-item nav-link fli">Sign in</a>
-
- </div>
- </div>
- </nav>
- </div>
- 
-
- 
- 
- 
- 
- 
- </div>
+ <div id="navbar">
  <div class="container">
- <h2 class="text1">Search hundreds of travel sites at once.</h2>
- <div class="row droop">
- <div class="col-lg-1 col-md-1 col-sm-1">
- <div class="dropdown">
- <button class="btn dropdown-toggle btndrop" type="button" data-toggle="dropdown">Return
- <span class="caret"></span></button>
- <ul class="dropdown-menu">
- <li><a href="#">Return</a></li>
- <li><a href="#">One-way</a></li>
- <li><a href="#">Multi-cityScript</a></li>
- </ul>
+ <div class="row">
+ <div class="col-lg-6 col-md-6 col-sm-6">
+ <a href="javascript:void(0)"><img class="img-responsive logo" src="images/logo.svg" alt="img8" class="imag"></a>
  </div>
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <div class="dropdown">
- <button class="btn dropdown-toggle btndrop" type="button" data-toggle="dropdown">1 Adult
- <span class="caret"></span></button>
- <ul class="dropdown-menu">
- <li><a href="#"></a></li>
- <li><a href="#"></a></li>
- <li><a href="#"></a></li>
- </ul>
- </div>
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <div class="dropdown">
- <button class="btn dropdown-toggle btndrop" type="button" data-toggle="dropdown">Economy
- <span class="caret"></span></button>
- <ul class="dropdown-menu">
- <li><a href="#"></a></li>
- <li><a href="#"></a></li>
- <li><a href="#"></a></li>
- </ul>
+ <div class="col-lg-6 col-md-6 col-sm-6">
+ <a class="active" href="javascript:void(0)"><i class="fa fa-plane" aria-hidden="true"></i>&nbsp&nbspFlights</a>
+ <a href="javascript:void(0)"><i class="fa fa-bed" aria-hidden="true"></i>&nbsp&nbspHotels</a>
+ <a href="javascript:void(0)"><i class="fa fa-car" aria-hidden="true"></i>&nbsp&nbspCar Rental</a>
+ <a href="javascript:void(0)"><i class="fa fa-tripadvisor" aria-hidden="true"></i>&nbsp&nbspMy Trip</a>
+ <a href="javascript:void(0)"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp&nbspLog in</a>
  </div>
  </div>
  </div>
-
-
- <div class="row datt">
- <div class="col-lg-2 col-md-2 col-sm-2 sec1">
- <i class="fa fa-times cro pull-right" aria-hidden="true"></i> 
- <input type="text" value="" placeholder="Bengaluru(BLR)" id="secone">
+ </div>
+ <div class="container-fluid hheader">
+ <div class="container topheader">
  
+ <div class="row">
+ <div class="col-lg-6 col-md-6 col-sm-6">
+ <h1 class="txt1">Find the best deals from all the major hotel sites</h1>
  </div>
- <div class="col-lg-1 col-md-1 col-sm-1 sec1">
- <i class="fa fa-arrow-right" aria-hidden="true"></i><br>
- <i class="fa fa-arrow-left" aria-hidden="true"></i>
+ <div class="col-lg-6 col-md-6 col-sm-6">
+
+ </div>
+ </div>
+ <div class="row ent">
+ <ul class="list-inline ">
+ <li><a class="oneway" href="#">One-way</a></li>
+ <li><a class="oneway" href="#">Return</a></li>
+ <li><a class="oneway" href="#">Multi-city</a></li>
+ </ul>
+ <div class="col-lg-2 col-md-2 col-sm-2 sec1">
+ <i class="fa fa-plane plane1" aria-hidden="true"></i>
+ <input type="text" value="" class="inp" placeholder="Bengaluru" id="secone">
  </div>
  <div class="col-lg-2 col-md-2 col-sm-2 sec1">
- <i class="fa fa-times cro pull-right" aria-hidden="true"></i>
- <input type="text" value="" placeholder="Bengaluru(BLR)" id="secone" >
+ <i class="fa fa-plane plane1" aria-hidden="true"></i>
+<input type="text" value="" class="inp" placeholder="Bengaluru" id="secone"> 
+</div>
+ <div class="col-lg-2 col-md-2 col-sm-2 sec1">
+ <i class="fa fa-calendar cale" aria-hidden="true"></i>
+ <input type="text" value="" class="inp" placeholder="Bengaluru" id="secone">
+ </div>
+ <div class="col-lg-2 col-md-2 col-sm-2 sec1">
+ <i class="fa fa-calendar cale" aria-hidden="true"></i>
+ <input type="text" value="" class="inp" placeholder="Bengaluru" id="secone">
+ </div>
  
+ 
+ <div class="col-lg-2 col-md-2 col-sm-2 sec1">
+ <div class="dropdown">
+ <button class="btn dropdown-toggle btndrop btntop" type="button" data-toggle="dropdown">India, English INR
+ <span class="caret"></span></button>
+ <ul class="dropdown-menu">
+ <li><a href="#">HTML</a></li>
+ <li><a href="#">CSS</a></li>
+ <li><a href="#">JavaScript</a></li>
+ </ul>
  </div>
- <div class="col-lg-3 col-md-3 col-sm-3 sec1">
- <i class="fa fa-calendar" aria-hidden="true"></i><input type = "text" id = "datepicker-1" placeholder="Thu 12/3">
- </div>
- <div class="col-lg-3 col-md-3 col-sm-3 sec1">
- <i class="fa fa-calendar" aria-hidden="true"></i><input type = "text" id = "datepicker-2" placeholder="sat 12/5">
  </div>
  <div class="col-lg-1 col-md-1 col-sm-1 sec2">
- <i class="fa fa-search" aria-hidden="true"></i>
- </div>
-
- </div>
- <div class="row chek">
- <form action="">
- Compare vs KAYAK all | none
- <input type="checkbox" name="" value="" > Malaysia Airlines
- <input type="checkbox" name="" value="" > Expedia
- <input type="checkbox" name="" value="" > Cleartrip
- 
- </form>
- 
- 
- 
- </div>
- 
- <div class="row expl">
- <h3 class="text2">Explore the world.</h3>
- <h5 class="text3 col-sm-6">Prices from BLR, departing Thu 12/3 and returning Tue 17/3</h5>
-<a href="#" class="explore pull-right ">Explore all</a>
-<img class="img-responsive" src="images/img8.png" alt="img8" class="imag">
-<a href="#"><img class="img-responsive img1" src="images/img1.png" alt="img1" class="imag">
-</a>
- </div>
- <div class="row sli1">
- <h3><b>Recommended for you</b></h3>
- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
- 
- 
- 
- <div class="carousel-inner" role="listbox">
- <div class="item active">
- <div class="row">
- 
- <div class="col-lg-4 col-md-4 col-sm-4 ">
- <img class="img-responsive" src="images/img2.png" alt="">
- 
- <div class="row recdetails">
- <h4>Singapore,Singapore</h4>
- <h5>BLR Bangalore to SIN Singapore</h5>
- <h5>6Feb-11Feb 6days</h5>
- <div class="row recdetailsbottom">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/flight.png" alt="">
- </div>
- <div class="col-lg-5 col-md-5 col-sm-5 rss">
- <form action="">
- <input type="checkbox" name="vehicle1" value="Bike" >19234+
- <h6 style="margin-top: 2px;">2 Stops</h6>
- </form>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <button class="btn btn-primary findflight" type="button">Find Flights</button>
+ <p class="ser" >Search</p>
  </div>
  </div>
- </div>
- 
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4 ">
- <img class="img-responsive" src="images/img4.png" alt="">
- 
- <div class="row recdetails">
- <h4>Singapore,Singapore</h4>
- <h5>BLR Bangalore to SIN Singapore</h5>
- <h5>6Feb-11Feb 6days</h5>
- <div class="row recdetailsbottom">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/flight.png" alt="">
- </div>
- <div class="col-lg-5 col-md-5 col-sm-5 rss">
- <form action="">
- <input type="checkbox" name="vehicle1" value="Bike" >19234+
- <h6 style="margin-top: 2px;">2 Stops</h6>
- </form>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <button class="btn btn-primary findflight" type="button">Find Flights</button>
- </div>
- </div>
- </div>
- 
- </div> <div class="col-lg-4 col-md-4 col-sm-4 ">
- <img class="img-responsive" src="images/img3.png" alt="">
- 
- <div class="row recdetails">
- <h4>Singapore,Singapore</h4>
- <h5>BLR Bangalore to SIN Singapore</h5>
- <h5>6Feb-11Feb 6days</h5>
- <div class="row recdetailsbottom">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/flight.png" alt="">
- </div>
- <div class="col-lg-5 col-md-5 col-sm-5 rss">
- <form action="">
- <input type="checkbox" name="vehicle1" value="Bike" >19234+
- <h6 style="margin-top: 2px;">2 Stops</h6>
- </form>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <button class="btn btn-primary findflight" type="button">Find Flights</button>
- </div>
- </div>
- </div>
+ <input type="checkbox" ><p class="dire">Direct flights only </p> 
  
  </div>
  
  
- </div>
- </div>
- <div class="item">
- <div class="row">
- 
- <div class="col-lg-4 col-md-4 col-sm-4 ">
- <img class="img-responsive" src="images/img4.png" alt="">
- 
- <div class="row recdetails">
- <h4>Singapore,Singapore</h4>
- <h5>BLR Bangalore to SIN Singapore</h5>
- <h5>6Feb-11Feb 6days</h5>
- <div class="row recdetailsbottom">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/flight.png" alt="">
- </div>
- <div class="col-lg-5 col-md-5 col-sm-5 rss">
- <form action="">
- <input type="checkbox" name="vehicle1" value="Bike" >19234+
- <h6 style="margin-top: 2px;">2 Stops</h6>
- </form>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <button class="btn btn-primary findflight" type="button">Find Flights</button>
- </div>
- </div>
- </div>
- 
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4 ">
- <img class="img-responsive" src="images/img2.png" alt="">
- 
- <div class="row recdetails">
- <h4>Singapore,Singapore</h4>
- <h5>BLR Bangalore to SIN Singapore</h5>
- <h5>6Feb-11Feb 6days</h5>
- <div class="row recdetailsbottom">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/flight.png" alt="">
- </div>
- <div class="col-lg-5 col-md-5 col-sm-5 rss">
- <form action="">
- <input type="checkbox" name="vehicle1" value="Bike" >19234+
- <h6 style="margin-top: 2px;">2 Stops</h6>
- </form>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <button class="btn btn-primary findflight" type="button">Find Flights</button>
- </div>
- </div>
- </div>
- 
- </div> <div class="col-lg-4 col-md-4 col-sm-4 ">
- <img class="img-responsive" src="images/img3.png" alt="">
- 
- <div class="row recdetails">
- <h4>Singapore,Singapore</h4>
- <h5>BLR Bangalore to SIN Singapore</h5>
- <h5>6Feb-11Feb 6days</h5>
- <div class="row recdetailsbottom">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/flight.png" alt="">
- </div>
- <div class="col-lg-5 col-md-5 col-sm-5 rss">
- <form action="">
- <input type="checkbox" name="numb" value="numb" >19234+
- <h6 style="margin-top: 2px;">2 Stops</h6>
- </form>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <button class="btn btn-primary findflight" type="button">Find Flights</button>
- </div>
- </div>
- </div>
- 
- </div>
  
  
+ 
+ 
+ 
+ 
+ 
+ </div>
  </div> 
- </div>
  
- 
- </div>
- 
- 
- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
- <span class="sr-only">Previous</span>
- </a>
- <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
- <span class="sr-only">Next</span>
- </a>
- </div>
- </div>
+ <div class="container-fluid bodycon">
+ <div class="container">
+ <hr class="hor"></hr>
+ <h2>Trending cities</h2>
+ <p>The most searched for cities on momondo</p> 
+ <div class="row">
 
- <div class="row memb">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/img5.png" alt="">
+ <div class="col-lg-4 col-md-4 col-sm-4 trend ">
+ <a href="#"><img class="img-responsive " src="images/img1.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive " src="images/img2.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive" src="images/img3.png" alt="img8" class="imag"></a>
+ </div>
  
  </div>
- <div class="col-lg-3 col-md-3 col-sm-3">
- <h4><b>Members save up to 35%</b></h4><br>
- <p>Sign up for access to personalised recommendations 
- and private deals of up to 35% off.</p>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <form action="">
- <i class="fa fa-envelope" aria-hidden="true"></i>
- <input class="inpemail" type="text" name="fname" placeholder="Enter Your Email address">
- 
- </form>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- <button class="btn btn-primary letsdoit" type="button">Let's do this</button>
- 
- </div>
- </div>
- <div class="row sli1">
- <h3><b>Popular from Bengaluru</b></h3>
- <div id="myCarousel" class="carousel slide" data-ride="carousel">
- 
- 
- 
- <div class="carousel-inner" role="listbox">
- <div class="item active">
  <div class="row">
- 
- <div class="col-lg-4 col-md-4 col-sm-4 ">
- <img class="img-responsive" src="images/img2.png" alt="">
- 
- <div class="row recdetails">
- <h4>Singapore,Singapore</h4>
- <h5>BLR Bangalore to SIN Singapore</h5>
- <h5>6Feb-11Feb 6days</h5>
- <div class="row recdetailsbottom">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/flight.png" alt="">
- </div>
- <div class="col-lg-5 col-md-5 col-sm-5 rss">
- <form action="">
- <input type="checkbox" name="vehicle1" value="Bike" >19234+
- <h6 style="margin-top: 2px;">2 Stops</h6>
- </form>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <button class="btn btn-primary findflight" type="button">Find Flights</button>
- </div>
- </div>
- </div>
- 
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4 ">
- <img class="img-responsive" src="images/img4.png" alt="">
- 
- <div class="row recdetails">
- <h4>Singapore,Singapore</h4>
- <h5>BLR Bangalore to SIN Singapore</h5>
- <h5>6Feb-11Feb 6days</h5>
- <div class="row recdetailsbottom">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/flight.png" alt="">
- </div>
- <div class="col-lg-5 col-md-5 col-sm-5 rss">
- <form action="">
- <input type="checkbox" name="vehicle1" value="Bike" >19234+
- <h6 style="margin-top: 2px;">2 Stops</h6>
- </form>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <button class="btn btn-primary findflight" type="button">Find Flights</button>
- </div>
- </div>
- </div>
- 
- </div> <div class="col-lg-4 col-md-4 col-sm-4 ">
- <img class="img-responsive" src="images/img3.png" alt="">
- 
- <div class="row recdetails">
- <h4>Singapore,Singapore</h4>
- <h5>BLR Bangalore to SIN Singapore</h5>
- <h5>6Feb-11Feb 6days</h5>
- <div class="row recdetailsbottom">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/flight.png" alt="">
- </div>
- <div class="col-lg-5 col-md-5 col-sm-5 rss">
- <form action="">
- <input type="checkbox" name="vehicle1" value="Bike" >19234+
- <h6 style="margin-top: 2px;">2 Stops</h6>
- </form>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <button class="btn btn-primary findflight" type="button">Find Flights</button>
- </div>
- </div>
- </div>
- 
- </div>
- 
- 
- </div>
- </div>
- <div class="item">
- <div class="row">
- 
- <div class="col-lg-4 col-md-4 col-sm-4 ">
- <img class="img-responsive" src="images/img4.png" alt="">
- 
- <div class="row recdetails">
- <h4>Singapore,Singapore</h4>
- <h5>BLR Bangalore to SIN Singapore</h5>
- <h5>6Feb-11Feb 6days</h5>
- <div class="row recdetailsbottom">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/flight.png" alt="">
- </div>
- <div class="col-lg-5 col-md-5 col-sm-5 rss">
- <form action="">
- <input type="checkbox" name="vehicle1" value="Bike" >19234+
- <h6 style="margin-top: 2px;">2 Stops</h6>
- </form>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <button class="btn btn-primary findflight" type="button">Find Flights</button>
- </div>
- </div>
- </div>
- 
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4 ">
- <img class="img-responsive" src="images/img2.png" alt="">
- 
- <div class="row recdetails">
- <h4>Singapore,Singapore</h4>
- <h5>BLR Bangalore to SIN Singapore</h5>
- <h5>6Feb-11Feb 6days</h5>
- <div class="row recdetailsbottom">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/flight.png" alt="">
- </div>
- <div class="col-lg-5 col-md-5 col-sm-5 rss">
- <form action="">
- <input type="checkbox" name="vehicle1" value="Bike" >19234+
- <h6 style="margin-top: 2px;">2 Stops</h6>
- </form>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <button class="btn btn-primary findflight" type="button">Find Flights</button>
- </div>
- </div>
- </div>
- 
- </div> <div class="col-lg-4 col-md-4 col-sm-4 ">
- <img class="img-responsive" src="images/img3.png" alt="">
- 
- <div class="row recdetails">
- <h4>Singapore,Singapore</h4>
- <h5>BLR Bangalore to SIN Singapore</h5>
- <h5>6Feb-11Feb 6days</h5>
- <div class="row recdetailsbottom">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <img class="img-responsive" src="images/flight.png" alt="">
- </div>
- <div class="col-lg-5 col-md-5 col-sm-5 rss">
- <form action="">
- <input type="checkbox" name="vehicle1" value="Bike" >19234+
- <h6 style="margin-top: 2px;">2 Stops</h6>
- </form>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
- <button class="btn btn-primary findflight" type="button">Find Flights</button>
- </div>
- </div>
- </div>
- 
- </div>
- 
- 
- </div> 
- </div>
- 
- 
- </div>
- 
- 
- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev1">
- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
- <span class="sr-only">Previous</span>
- </a>
- <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next1">
- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
- <span class="sr-only">Next</span>
- </a>
- </div>
- </div>
 
- <div class="row togg">
- <h3>Start your travel planning here<br></h3>
- <h5> Search Flights, Hotels & Rental Cars</h5>
- <div class="col-lg-4 col-md-4 col-sm-4">
+ <div class="col-lg-4 col-md-4 col-sm-4 trend ">
+ <a href="#"><img class="img-responsive " src="images/img4.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive " src="images/img5.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive" src="images/img6.png" alt="img8" class="imag"></a>
+ </div>
+ 
+ </div>
+ <div class="row">
 
- <button type="button" class="btn btn-info tog" data-toggle="collapse" data-target="#demo">New Delhi<br>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend ">
+ <a href="#"><img class="img-responsive " src="images/img1.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive " src="images/img2.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive" src="images/img3.png" alt="img8" class="imag"></a>
+ </div>
  
- <ul class="list-inline ">
- <li><a class="reg1" href="#">FLIGHTS</a></li>
- <li><a class="reg1" href="#">HOTELS</a></li>
- <li><a class="reg1" href="#">CARS</a></li>
- 
- </ul>
- <i class="fa fa-caret-down dow" aria-hidden="true"></i>
+ </div>
+ <div class="row">
 
- </button>
- <div id="demo" class="collapse">
+ <div class="col-lg-4 col-md-4 col-sm-4 trend ">
+ <a href="#"><img class="img-responsive " src="images/img3.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive " src="images/img6.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive" src="images/img2.png" alt="img8" class="imag"></a>
+ </div>
+ 
+ </div>
  <div class="row">
- <div class="col-lg-6 col-md-6 col-sm-6">
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- +1234
- +1234
- +1234
- 
- </div>
- </div>
- 
- </div>
- 
- 
- <button type="button" class="btn btn-info tog" data-toggle="collapse" data-target="#demo1">Bangalore<br>
- <ul class="list-inline ">
- <li><a class="reg1" href="#">FLIGHTS</a></li>
- <li><a class="reg1" href="#">HOTELS</a></li>
- <li><a class="reg1" href="#">CARS</a></li>
- 
- 
- </ul>
- <i class="fa fa-caret-down dow1" aria-hidden="true"></i></button>
- <div id="demo1" class="collapse">
- <div class="row">
- <div class="col-lg-6 col-md-6 col-sm-6">
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- +1234
- +1234
- +1234
- 
- </div>
- </div>
- 
- </div>
- 
- 
- <button type="button" class="btn btn-info tog" data-toggle="collapse" data-target="#demo2">Mumbai<br>
- <ul class="list-inline ">
- <li><a class="reg1" href="#">FLIGHTS</a></li>
- <li><a class="reg1" href="#">HOTELS</a></li>
- <li><a class="reg1" href="#">CARS</a></li>
- 
- 
- </ul>
- <i class="fa fa-caret-down dow1 " aria-hidden="true"></i>
- </button>
- <div id="demo2" class="collapse">
- <div class="row">
- <div class="col-lg-6 col-md-6 col-sm-6">
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- +1234
- +1234
- +1234
- 
- </div>
- </div>
- 
- </div>
- 
- 
- <button type="button" class="btn btn-info tog" data-toggle="collapse" data-target="#demo3">London
- <br>
- <ul class="list-inline ">
- <li><a class="reg1" href="#">FLIGHTS</a></li>
- <li><a class="reg1" href="#">HOTELS</a></li>
- <li><a class="reg1" href="#">CARS</a></li>
- 
- 
- </ul>
- <i class="fa fa-caret-down dow1" aria-hidden="true"></i></button>
- <div id="demo3" class="collapse">
- <div class="row">
- <div class="col-lg-6 col-md-6 col-sm-6">
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- +1234
- +1234
- +1234
- 
- </div>
- </div>
- 
- </div>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
 
- <button type="button" class="btn btn-info tog" data-toggle="collapse" data-target="#demo11">New Delhi<br>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend ">
+ <a href="#"><img class="img-responsive " src="images/img4.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive " src="images/img5.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive" src="images/img6.png" alt="img8" class="imag"></a>
+ </div>
  
- <ul class="list-inline ">
- <li><a class="reg1" href="#">FLIGHTS</a></li>
- <li><a class="reg1" href="#">HOTELS</a></li>
- <li><a class="reg1" href="#">CARS</a></li>
- 
- </ul>
- <i class="fa fa-caret-down dow" aria-hidden="true"></i>
+ </div>
+ <div class="row">
 
- </button>
- <div id="demo11" class="collapse">
+ <div class="col-lg-4 col-md-4 col-sm-4 trend ">
+ <a href="#"><img class="img-responsive " src="images/img4.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive " src="images/img5.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive" src="images/img6.png" alt="img8" class="imag"></a>
+ </div>
+ 
+ </div>
+ 
+ <hr class="hor"></hr>
+ <h2>Trending countries</h2>
+ <p>The most searched for countries on momondo</p> 
  <div class="row">
- <div class="col-lg-6 col-md-6 col-sm-6">
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- +1234
- +1234
- +1234
- 
- </div>
- </div>
- 
- </div>
- 
- 
- <button type="button" class="btn btn-info tog" data-toggle="collapse" data-target="#demo12">Bangalore<br>
- <ul class="list-inline ">
- <li><a class="reg1" href="#">FLIGHTS</a></li>
- <li><a class="reg1" href="#">HOTELS</a></li>
- <li><a class="reg1" href="#">CARS</a></li>
- 
- 
- </ul>
- <i class="fa fa-caret-down dow1" aria-hidden="true"></i></button>
- <div id="demo12" class="collapse">
- <div class="row">
- <div class="col-lg-6 col-md-6 col-sm-6">
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- +1234
- +1234
- +1234
- 
- </div>
- </div>
- 
- </div>
- 
- 
- <button type="button" class="btn btn-info tog" data-toggle="collapse" data-target="#demo13">Mumbai<br>
- <ul class="list-inline ">
- <li><a class="reg1" href="#">FLIGHTS</a></li>
- <li><a class="reg1" href="#">HOTELS</a></li>
- <li><a class="reg1" href="#">CARS</a></li>
- 
- 
- </ul>
- <i class="fa fa-caret-down dow1 " aria-hidden="true"></i>
- </button>
- <div id="demo13" class="collapse">
- <div class="row">
- <div class="col-lg-6 col-md-6 col-sm-6">
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- +1234
- +1234
- +1234
- 
- </div>
- </div>
- 
- </div>
- 
- 
- <button type="button" class="btn btn-info tog" data-toggle="collapse" data-target="#demo14">London
- <br>
- <ul class="list-inline ">
- <li><a class="reg1" href="#">FLIGHTS</a></li>
- <li><a class="reg1" href="#">HOTELS</a></li>
- <li><a class="reg1" href="#">CARS</a></li>
- 
- 
- </ul>
- <i class="fa fa-caret-down dow1" aria-hidden="true"></i></button>
- <div id="demo14" class="collapse">
- <div class="row">
- <div class="col-lg-6 col-md-6 col-sm-6">
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- +1234
- +1234
- +1234
- 
- </div>
- </div>
- 
- </div>
- </div>
- <div class="col-lg-4 col-md-4 col-sm-4">
 
- <button type="button" class="btn btn-info tog" data-toggle="collapse" data-target="#demo21">New Delhi<br>
- 
- <ul class="list-inline ">
- <li><a class="reg1" href="#">FLIGHTS</a></li>
- <li><a class="reg1" href="#">HOTELS</a></li>
- <li><a class="reg1" href="#">CARS</a></li>
- 
- </ul>
- <i class="fa fa-caret-down dow" aria-hidden="true"></i>
+<div class="col-lg-4 col-md-4 col-sm-4 trend ">
+<a href="#"><img class="img-responsive " src="images/img1.png" alt="img8" class="imag"></a>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 trend">
+<a href="#"><img class="img-responsive " src="images/img2.png" alt="img8" class="imag"></a>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 trend">
+<a href="#"><img class="img-responsive" src="images/img3.png" alt="img8" class="imag"></a>
+</div>
 
- </button>
- <div id="demo21" class="collapse">
+ </div>
  <div class="row">
- <div class="col-lg-6 col-md-6 col-sm-6">
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- +1234
- +1234
- +1234
- 
- </div>
- </div>
- 
- </div>
- 
- 
- <button type="button" class="btn btn-info tog" data-toggle="collapse" data-target="#demo22">Bangalore<br>
- <ul class="list-inline ">
- <li><a class="reg1" href="#">FLIGHTS</a></li>
- <li><a class="reg1" href="#">HOTELS</a></li>
- <li><a class="reg1" href="#">CARS</a></li>
- 
- 
- </ul>
- <i class="fa fa-caret-down dow1" aria-hidden="true"></i></button>
- <div id="demo22" class="collapse">
- <div class="row">
- <div class="col-lg-6 col-md-6 col-sm-6">
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- +1234
- +1234
- +1234
- 
- </div>
- </div>
- 
- </div>
- 
- 
- <button type="button" class="btn btn-info tog" data-toggle="collapse" data-target="#demo23">Mumbai<br>
- <ul class="list-inline ">
- <li><a class="reg1" href="#">FLIGHTS</a></li>
- <li><a class="reg1" href="#">HOTELS</a></li>
- <li><a class="reg1" href="#">CARS</a></li>
- 
- 
- </ul>
- <i class="fa fa-caret-down dow1 " aria-hidden="true"></i>
- </button>
- <div id="demo23" class="collapse">
- <div class="row">
- <div class="col-lg-6 col-md-6 col-sm-6">
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- +1234
- +1234
- +1234
- 
- </div>
- </div>
- 
- </div>
- 
- 
- <button type="button" class="btn btn-info tog" data-toggle="collapse" data-target="#demo24">London
- <br>
- <ul class="list-inline ">
- <li><a class="reg1" href="#">FLIGHTS</a></li>
- <li><a class="reg1" href="#">HOTELS</a></li>
- <li><a class="reg1" href="#">CARS</a></li>
- 
- 
- </ul>
- <i class="fa fa-caret-down dow1" aria-hidden="true"></i></button>
- <div id="demo24" class="collapse">
- <div class="row">
- <div class="col-lg-6 col-md-6 col-sm-6">
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- <h6>The suurya New Delhi </h6>
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- </div>
- <div class="col-lg-1 col-md-1 col-sm-1">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- <input type="checkbox">
- </div>
- <div class="col-lg-2 col-md-2 col-sm-2">
- +1234
- +1234
- +1234
- 
- </div>
- </div>
- 
- </div>
- </div>
- 
- 
- 
- 
- 
 
- </div> 
+ <div class="col-lg-4 col-md-4 col-sm-4 trend ">
+ <a href="#"><img class="img-responsive " src="images/img4.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive " src="images/img5.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive" src="images/img6.png" alt="img8" class="imag"></a>
+ </div>
+ 
+ </div>
+ <div class="row">
 
+ <div class="col-lg-4 col-md-4 col-sm-4 trend ">
+ <a href="#"><img class="img-responsive " src="images/img1.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive " src="images/img2.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive" src="images/img3.png" alt="img8" class="imag"></a>
+ </div>
+ 
+ </div>
+ <div class="row">
 
+ <div class="col-lg-4 col-md-4 col-sm-4 trend ">
+ <a href="#"><img class="img-responsive " src="images/img3.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive " src="images/img6.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive" src="images/img2.png" alt="img8" class="imag"></a>
+ </div>
+ 
+ </div>
+ <div class="row">
+
+ <div class="col-lg-4 col-md-4 col-sm-4 trend ">
+ <a href="#"><img class="img-responsive " src="images/img3.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive " src="images/img6.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive" src="images/img2.png" alt="img8" class="imag"></a>
+ </div>
+ 
+</div>
+<div class="row">
+
+ <div class="col-lg-4 col-md-4 col-sm-4 trend ">
+ <a href="#"><img class="img-responsive " src="images/img3.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive " src="images/img6.png" alt="img8" class="imag"></a>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 trend">
+ <a href="#"><img class="img-responsive" src="images/img2.png" alt="img8" class="imag"></a>
+ </div>
  
 </div>
 
-<div class="container-fluid footer ">
- <div class="container bottomfooter">
- <div class="row footpart1">
- <div class="col-lg-3 col-md-3 col-sm-3">
- <h5 class="comp">Contact</h5>
- <ul style="list-style-type:none;">
- <li><a href="#" class="listit">Help/FAQ</a></li>
- <li><a href="#" class="listit">Press</a></li>
- <li> <a href="#" class="listit">Affliates</a></li>
- <li><a href="#" class="listit">Hotel owners</a></li>
- <li> <a href="#" class="listit">Partners</a></li>
- </ul> 
- </div>
- <div class="col-lg-3 col-md-3 col-sm-3">
- <h5 class="comp">More</h5>
- <ul style="list-style-type:none;">
- <li><a href="#" class="listit">Airline fees</a></li>
- <li><a href="#" class="listit">Airlines</a></li>
- <li> <a href="#" class="listit">Low fare tips</a></li>
- <li><a href="#" class="listit">Blog</a></li>
- <li> <a href="#" class="listit">How we work</a></li>
- </ul> 
- </div>
- <div class="col-lg-3 col-md-3 col-sm-3">
- <h5 class="comp">Contact</h5>
- <ul style="list-style-type:none;">
- <li><a href="#" class="listit">Help/FAQ</a></li>
- <li><a href="#" class="listit">Press</a></li>
- <li> <a href="#" class="listit">Affliates</a></li>
  
- </ul> 
+
+<div class="row ">
+ <hr class="hor"></hr>
+ 
+
+ <h2>A little bit more about momondo flights</h2>
+ <p>Here’s why travellers use momondo as their free service to find cheap flights</p>
  </div>
- <div class="col-lg-3 col-md-3 col-sm-3">
- <h5 class="comp">Site/Currency</h5>
- <div class="dropdown">
-<button class="btn dropdown-toggle btndrop1" type="button" data-toggle="dropdown">India
+ <div class="row text2">
+ <div class="col-lg-4 col-md-4 col-sm-4">
+ <h3>Get the best deals</h3>
+ <p>We search and compare real-time prices on flights, hotels and cars so you can find the cheapest, quickest and best travel deals</p>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4">
+ <h3>100% price transparency</h3>
+ <p> The prices you see are never affected by your searches, no matter how many you make. We do not use cookies to adjust or increase prices.</p>
+ </div>
+ <div class="col-lg-4 col-md-4 col-sm-4">
+ <h3>Trusted and free</h3>
+ <p> We’re completely free to use – no hidden charges or fees – and we’re endorsed by Frommer’s, CNN and the New York Times</p>
+ </div>
+ 
+ </div>
+ 
+<div class="row foot1">
+ <ul class="list-inline">
+ <li><a href="#">About Us</a></li>
+ <li><a href="#">Jobs</a></li>
+ <li><a href="#">Press</a></li>
+ <li><a href="#">Terms of use</a></li>
+ <li><a href="#">Cookies & privacy policy</a></li>
+ <li><a href="#">Airlines</a></li>
+ <li><a href="#">Apps</a></li>
+ <li><a href="#">Help</a></li>
+ <li><a href="#">Airline fees</a></li>
+ <li><a href="#">Best price Guarantee</a></li>
+ <li><a href="#">The world piece</a></li>
+ 
+ </ul>
+ </div>
+ 
+ 
+ 
+ <div class="row foot2">
+ <div class="col-lg-2 col-md-2 col-sm-2">
+ <img src="images/f1.svg" alt="f1" class="img-responsive flag">
+ <h5 class="flagtext">Flights</h5>
+ </div>
+ <div class="col-lg-2 col-md-2 col-sm-2">
+ <img src="images/f2.svg" alt="f2" class="img-responsive flag">
+ <h5 class="flagtext">Flights</h5>
+ </div>
+ <div class="col-lg-2 col-md-2 col-sm-2">
+ <img src="images/f3.svg" alt="f1" class="img-responsive flag">
+ <h5 class="flagtext">Flights</h5>
+ </div>
+ <div class="col-lg-2 col-md-2 col-sm-2">
+ <img src="images/f4.svg" alt="f1" class="img-responsive flag">
+ <h5 class="flagtext">Flights</h5>
+ </div>
+ <div class="col-lg-2 col-md-2 col-sm-2">
+ <img src="images/f5.svg" alt="f1" class="img-responsive flag">
+ <h5 class="flagtext">Flights</h5>
+ </div>
+ <div class="col-lg-2 col-md-2 col-sm-2">
+ <img src="images/f4.svg" alt="f1" class="img-responsive flag">
+ <h5 class="flagtext">Flights</h5>
+ </div>
+ </div>
+ <div class="row foot2">
+ <div class="col-lg-2 col-md-2 col-sm-2">
+ <img src="images/f5.svg" alt="f1" class="img-responsive flag">
+ <h5 class="flagtext">Flights</h5>
+ </div>
+ <div class="col-lg-2 col-md-2 col-sm-2">
+ <img src="images/f1.svg" alt="f2" class="img-responsive flag">
+ <h5 class="flagtext">Flights</h5>
+ </div>
+ <div class="col-lg-2 col-md-2 col-sm-2">
+ <img src="images/f5.svg" alt="f1" class="img-responsive flag">
+ <h5 class="flagtext">Flights</h5>
+ </div>
+ <div class="col-lg-2 col-md-2 col-sm-2">
+ <img src="images/f4.svg" alt="f1" class="img-responsive flag">
+ <h5 class="flagtext">Flights</h5>
+ </div>
+ <div class="col-lg-2 col-md-2 col-sm-2">
+ <img src="images/f3.svg" alt="f1" class="img-responsive flag">
+ <h5 class="flagtext">Flights</h5>
+ </div>
+ <div class="col-lg-2 col-md-2 col-sm-2">
+ <img src="images/f4.svg" alt="f1" class="img-responsive flag">
+ <h5 class="flagtext">Flights</h5>
+ </div>
+ </div>
+ 
+ 
+ <div class="row foot3 ">
+ <a href="#"><img class="img-responsive logo1" src="images/logo.svg" alt="img8" class="imag"></a>
+ <div class="dropdown pull-right">
+ <button class="btn dropdown-toggle btndrop ftnbtn" type="button" data-toggle="dropdown">India, English INR
  <span class="caret"></span></button>
  <ul class="dropdown-menu">
  <li><a href="#"></a></li>
@@ -1028,34 +386,14 @@
  <li><a href="#"></a></li>
  </ul>
  </div>
+ </div> 
+ </div>
+ </div>
 
- <div class="dropdown">
- <button class="btn dropdown-toggle btndrop2" type="button" data-toggle="dropdown">Indian Rupees
- <span class="caret"></span></button>
- <ul class="dropdown-menu">
- <li><a href="#"></a></li>
- <li><a href="#"></a></li>
- <li><a href="#"></a></li>
- </ul>
- </div>
  
- </div>
- </div>
- <div class="row footpart2">
- <h5>Privacy Terms & Conditions ©2019 KAYAK</h5>
- <p>Search flights, hotels, rental cars, travel guides and more with KAYAK. KAYAK searches hundreds of other travel sites at once to get
- you the information you need to make the right decisions.</p>
- <a href="#"><i class="fa fa-facebook-official" aria-hidden="false"></i></a>
  
- </div>
- <div class="row footpart3">
-
- <p>KAYAK is part of Booking Holdings Inc., the world leader in online travel & related services.</p>
- <img class="img-responsive img7" src="images/img7.png" alt="">
  
- </div>
- </div>
- </div>
+ 
 
  
 
@@ -1090,6 +428,21 @@ $(document).ready(function(){
  $( "#datepicker-2" ).datepicker();
  });
  </script>
+ <script>
+ window.onscroll = function() {myFunction()};
+ 
+ var navbar = document.getElementById("navbar");
+ var sticky = navbar.offsetTop;
+ 
+ function myFunction() {
+ if (window.pageYOffset >= sticky) {
+ navbar.classList.add("sticky")
+ } else {
+ navbar.classList.remove("sticky");
+ }
+ }
+ </script>
+ 
 </body>
 
 </html>
